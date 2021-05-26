@@ -50,17 +50,6 @@ namespace WebAtividadeEntrevista.Controllers
                     return Json("CPF inserido é inválido!");
                 }
 
-                //List<Beneficiario> beneficiarios = new List<Beneficiario>();
-
-                //foreach(Beneficiario benef in model.Beneficiarios)
-                //{
-                //    beneficiarios.Add(new Beneficiario()
-                //    {
-                //        CPF = benef.CPF,
-                //        Nome = benef.Nome
-                //    });
-                //}
-
                 model.Id = bo.Incluir(new Cliente()
                 {                    
                     CEP = model.CEP,

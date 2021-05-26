@@ -110,10 +110,6 @@ function OperacoesEdicao(cpf, nome, pos) {
         '<button class="btn btn-danger btn-sm" onclick="CancelarAlteracaoBeneficiario(this, \'' + cpf + '\', \'' + nome + '\');" type="button">Cancelar</button>';
 }
 
-function DebugList() {
-    console.log(benefList);
-}
-
 function MontarTabelaBeneficiarios() {
     var linhas;
 
